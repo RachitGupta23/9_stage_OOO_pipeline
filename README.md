@@ -23,7 +23,6 @@ This is a C++ based model that implements a 9-stage Out of Order Issue Pipeline.
 - The model outputs when an instruction enters each stage and how much time it spends in each stage. This shows how much time it took to execute each instruction and where it stalled if at all.
 - We use a while loop to run each stage and each iteration of the while loop is equivalent to 1 clock cycle.
 - With this we then calculate the IPC of the model with the given parameters and trace file.
-- Also includes a python script for generating plots that compare the IPC for different configurations for easy comparison.
 
 # Instructions
 1. Type `make` to build.  (Type `make clean` first if you already compiled and want to recompile from scratch.)
